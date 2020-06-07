@@ -83,6 +83,7 @@ Upload file to /upload/
 Shell command example: 
  - `curl -F "pos=0" -F "file=@0.mbd" http://192.168.44.1/cgi-bin/upload`, or: 
  - `curl -F "file=@0.mbd" http://192.168.44.1/cgi-bin/upload`  
+If the URL you were able to connect to is http://192.168.88.1, fill in the URL.
 
 For javascript code, refer `upload` function in `/js/utils/helper.js`
 
